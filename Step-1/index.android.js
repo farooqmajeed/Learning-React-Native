@@ -19,7 +19,7 @@
 //         <Text style={styles.welcome}>
 //          farooq!
 //         </Text>
-      
+
 //       </View>
 //     );
 //   }
@@ -46,11 +46,12 @@
 
 // AppRegistry.registerComponent('albums', () => albums);
 
-import  React from 'react';
-import ReactNative from 'react-native';
-const App = () => {
-  return (
-    <text> farooq </text>  
+import React from 'react';
+import { Text, AppRegistry } from 'react-native';
+
+const App = () => (
+    <Text> Ramadan Mubarak </Text>
   );
-};
-ReactNative.AppRegistry.registerComponent('albums', () => App);
+
+
+AppRegistry.registerComponent('albums', () => App);
